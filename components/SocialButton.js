@@ -4,13 +4,7 @@ import {windowHeight, windowWidth} from '../utils/Dimensions';
 
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
-const SocialButton = ({
-  buttonTitle,
-  btnType,
-  color,
-  backgroundColor,
-  ...rest
-}) => {
+const SocialButton = () => {
   let bgColor = backgroundColor;
   return (
     <TouchableOpacity

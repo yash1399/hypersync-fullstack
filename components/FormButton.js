@@ -1,16 +1,17 @@
 import React from 'react';
 import { Text, TouchableOpacity, StyleSheet } from 'react-native';
 import {windowHeight, windowWidth} from '../utils/Dimensions';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 
-const FormButton = ({buttonTitle, ...rest}) => {
+const FormButton = ({buttonTitle}) => {
     return(
-        <TouchableOpacity style={styles.buttonContainer} {...rest}>
+        <TouchableOpacity style={styles.buttonContainer}>
             <Text style={styles.buttonText}>{buttonTitle}</Text>
         </TouchableOpacity>
     );
 };
 
-export default FormButton;
+
 
 const styles = StyleSheet.create({
     buttonContainer: {
@@ -31,3 +32,4 @@ const styles = StyleSheet.create({
     },
   });
 
+  export default FormButton;
