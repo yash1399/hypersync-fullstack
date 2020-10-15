@@ -125,7 +125,8 @@ const Task = () => {
 const styles = StyleSheet.create({
 
     button: {
-        padding: 50
+        padding: 50, 
+        
 
     },
 
